@@ -1,0 +1,21 @@
+#colFechaNac{
+    background-color: aqua;
+}
+
+*{color: darkcyan;}
+
+td{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tabla1{
+    color: beige;
+    background-color: blue;
+    border-style: inset;
+}
+
+.tabla2{
+    color: blanchedalmond;
+    background-color: brown;
+    border-style: groove;
+}

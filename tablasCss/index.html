@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas CSS</title>
+   
+    
+
+    <style >
+        td{
+            background-color: aquamarine;
+        }
+        table{
+            border-color: black;
+            border-width: 5px;
+            border-style:dotted;
+        }
+    </style>
+     <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Tablas</h1>
+    <table border="1" class="tabla1">
+
+
+        <tr>
+            <th style="background-color: blueviolet; color: aliceblue;">Nombre</th>
+            <th style="background-color: blueviolet; color: aliceblue;">Apellido 1</th>
+            <th style="background-color: blueviolet; color: aliceblue;">Apellido 2</th>
+        </tr>
+        <tr>
+            <td>Angélica</td>
+            <td>Siles</td>
+            <td>Díaz</td>
+        </tr>
+        <tr>
+            <td colspan="2" id="colFechaNac">Fecha de Nacimiento</td>
+            <td>29-07-2004</td>
+        </tr>
+        <tr>
+            <td>Col</td>
+            <td>Col</td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td>Col</td>
+            <td>Col</td>
+            
+        </tr>
+    </table>
+    
+    <table border="1" class="tabla2">
+
+
+        <tr>
+            <th style="background-color: blueviolet; color: aliceblue;">Nombre</th>
+            <th style="background-color: blueviolet; color: aliceblue;">Apellido 1</th>
+            <th style="background-color: blueviolet; color: aliceblue;">Apellido 2</th>
+        </tr>
+        <tr>
+            <td>Angélica</td>
+            <td>Siles</td>
+            <td>Díaz</td>
+        </tr>
+        <tr>
+            <td colspan="2" id="colFechaNac">Fecha de Nacimiento</td>
+            <td>29-07-2004</td>
+        </tr>
+        <tr>
+            <td>Col</td>
+            <td>Col</td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td>Col</td>
+            <td>Col</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
